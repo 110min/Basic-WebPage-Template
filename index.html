@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Template for a web application</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <!-- <div>
+                <img src="./images/logo-2.png" alt="" class="image-logo">
+            </div> -->
+            <nav class="navBar" id="nav-bar">
+                <div><a href="#">Home</a></div>
+                <div><a href="#about">About</a></div>
+                <div><a href="#contact">Contact</a></div>
+            </nav>
+        </header>
+        <main class="main-content">
+            <section class="presentation">
+                    <img src="./images/bg-5.jpg" alt="" class="image-bg">
+                <div class="center">
+                    <h1>Welcome to the web site</h1>
+                    <p><b>Nothing is Impossible</b></p>
+                    <p>When you have a stable aim. you can achive the target.</p>
+                </div>
+            </section>
+            <section class="home-content">
+                <div class="home_1">
+                    <img src="./images/home.png" alt="" class="image-home">
+                </div>
+                <div class="home_2">
+                    <h3>Home</h3>
+                    <p> "Tourism is a collection of activities, services and industries which deliver 
+                        a travel experience comprising transportation, accommodation, eating and drinking 
+                        establishments, retail shops, entertainment businesses and othe hospitality services
+                        provided for individuals or groups traveling away from home" ourism is a collection 
+                        of activities, services and industries which deliver a travel experience comprising 
+                        transportation, accommodation, eating and drinking establishments, retail shops, 
+                        entertainment businesses and othe hospitality services provided for individuals 
+                        or groups traveling away from home"</p>
+                </div>
+            </section>
+            <section class="about-content" id="about">
+                <div class="about_1">
+                    <h3>About</h3>
+                    <p>Businesses operating within the travel industry has been especially quick to adopt virtual 
+                        reality technology and for good reason. Typically, their customers are looking to purchas
+                        experiences, rather than products, and virtual reality offers an effective way for marketers
+                        to give them a taste of what they can expect.Travel customers usually require lots of information 
+                        before they book a hotel room. This may, for instance, require them to read descriptions, view 
+                        images, look at videos, read customer reviews or seek opinions on social media. Through intelligent 
+                        use of virtual reality, however, this process can be shortened significantly.
+                        Many hotels and travel companies are now providing virtual reality elements on their websites 
+                        or apps, allowing users to experience a digital version of a hotel room, or even take a look at 
+                        one of the nearby attractions. This immersion enables those in the travel industry to provide a 
+                        kind of ‘try before you buy’ option for the first time.</p>
+                </div>
+                <div class="about_2">
+                    <img src="./images/about.jpg" alt="" class="image-home">
+                </div>
+            </section>
+            <section class="contact-content" id="contact">
+                <div class="contact_1">
+                    <img src="./images/contact.jpg" alt="" class="image-home">
+                </div>
+                <div class="contact_2">
+                    <h5>Contact</h5>
+                </div>
+            </section>
+        </main>
+        <footer class="footer-content"></footer>
+        <script>
+            function navigation(){
+                var x = document.getElementById("nav-bar");
+                if(x.className === "navBar"){
+                    x.className = "responsive-navBar"
+                }else{
+                    x.className = "navBar"
+                }
+            }
+        </script>
+    </body>
+</html>

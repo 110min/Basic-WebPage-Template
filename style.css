@@ -1,0 +1,120 @@
+header{
+    background-color: rgb(2, 31, 2);
+    padding: 10px;
+    display: flex;
+}
+
+.navBar{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-logo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 50px;
+}
+
+.presentation{
+    text-align: center;
+    display: flex;
+    font-size: 40px;
+}
+
+.image-bg{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color:rgb(4, 41, 4);
+}
+
+a{
+    color: white;
+    font-size: large;
+}
+
+.home-content{
+    display: flex;
+    flex: 1 1 50%;
+    background-color: rgb(188, 209, 188);
+}
+
+.home_1{
+    display: flex;
+    flex: 1;
+}
+
+.home_2{
+    flex: 1;
+    margin: 40px;
+    font-size: 20px;
+}
+
+.image-home{
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.about-content{
+    display: flex;
+    flex: 1;
+}
+
+
+.about_1{
+    flex: 1;
+    margin: 40px;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.about_2{
+    flex: 1;
+    display: flex;
+}
+
+.contact-content{
+    display: flex;
+    flex: 1;
+    background-color: rgb(188, 209, 188);
+}
+
+.contact_1{
+    flex: 1;
+    display: flex;
+}
+
+.contact_2{
+    flex: 1;
+    margin: 40px;
+}
+
+.footer-content{
+    background-color: rgb(2, 31, 2);
+    padding: 10px;
+}
+
+
+
+
